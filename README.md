@@ -17,13 +17,15 @@ Follow these steps to clone the repository and set up the project locally:
 
 Step 1: Clone the Repository
 Open your terminal and run the following command to clone the repository:
+
 git clone https://github.com/JimRh/Bitmorpher-Assignment.git
 
 Navigate to the project directory:
+
 cd Bitmorpher-Assignment
 
 Step 2: Create and Activate a Virtual Environment
-Create a virtual environment to keep your project dependencies isolated:
+
 
 
 python -m venv venv:
