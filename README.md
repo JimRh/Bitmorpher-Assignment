@@ -25,44 +25,62 @@ cd Bitmorpher-Assignment
 Step 2: Create and Activate a Virtual Environment
 Create a virtual environment to keep your project dependencies isolated:
 
-python -m venv venv
+
+python -m venv venv:
+
+
+
 Activate the virtual environment:
 
 On Windows:
+
 venv\Scripts\activate
+
 On macOS/Linux:
+
 source venv/bin/activate
 
 Step 3: Install Dependencies
+
 Install the required Python packages using pip:
+
 pip install -r requirements.txt
 
 
 
 Step 4: Set Up the Database
+
 Make sure you have your database configured and accessible. Create the necessary database tables by running the migrations:
+
 python manage.py migrate
 
 Step 6: Create a Superuser
+
 Create a superuser account to access the Django admin interface:
+
 python manage.py createsuperuser
+
 Follow the prompts to set up your admin account.
 
 
 
 
 Configuring Local Timezone
+
 Set your local timezone in settings.py to ensure timestamps are recorded correctly. For UTC+6:
 
-python
+
 
 TIME_ZONE = 'Asia/Dhaka'  # Adjust to your local timezone
 
 Running the Project
+
 Start the Django development server to run the project locally:
 
 python manage.py runserver
+
 Open your browser and navigate to http://127.0.0.1:8000 to see the project in action.
+
 Access the Django admin interface at http://127.0.0.1:8000/admin using the superuser credentials you created earlier.
 
 Use the provided postman collection to test the api endpoints
