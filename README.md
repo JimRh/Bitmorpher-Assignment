@@ -18,7 +18,7 @@ Follow these steps to clone the repository and set up the project locally:
 Step 1: Clone the Repository
 Open your terminal and run the following command to clone the repository:
 
-git clone https://github.com/JimRh/Bitmorpher-Assignment.git
+git clone https://github.com/JimRh/Bitmorpher Assignment.git
 
 Navigate to the project directory:
 
