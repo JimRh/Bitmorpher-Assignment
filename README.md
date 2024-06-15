@@ -2,10 +2,7 @@
  
 This repository contains the code for the Bitmorpher assignment. It includes the setup for a Django project with custom middleware and API endpoints. Follow the instructions below to clone and set up the project on your local machine.
 
-#Table of Contents
-##Prerequisites
-##Installation
-##Running the Project
+
 
 Prerequisites
 Before setting up the project, ensure you have the following software installed on your local machine:
