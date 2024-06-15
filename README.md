@@ -62,18 +62,7 @@ python manage.py createsuperuser
 
 Follow the prompts to set up your admin account.
 
-
-
-
-Configuring Local Timezone
-
-Set your local timezone in settings.py to ensure timestamps are recorded correctly. For UTC+6:
-
-
-
-TIME_ZONE = 'Asia/Dhaka'  # Adjust to your local timezone
-
-Running the Project
+Running the Project:
 
 Start the Django development server to run the project locally:
 
